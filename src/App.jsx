@@ -1,9 +1,9 @@
-import React from "react";
-import "./style.css";
+import React from 'react';
+import './styles/app.css';
 
 export default function App() {
   return (
-    <div>
+    <div class="main-container">
       <h1>Hello StackBlitz!</h1>
       <p>Start editing to see some magic happen :)</p>
     </div>
