@@ -4,7 +4,27 @@ p {
     Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
+body {
+  margin: 0;
+}
+
 .main-container {
   background-color: #a6e7ff;
-  height: 50vh;
+  height: 100vh;
+  background: #4fa46b;
+  color: #fff;
+  padding: 20px;
+  border: solid 10px #2e5f3e;
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  text-shadow: 2px 2px 4px #000000;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.divider {
+  border: solid 2px #2e5f3e;
 }
