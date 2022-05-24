@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { fetchAirData } from './api/airQuality.api';
 import "./styles/air-quality-widget.css"
 
+
 const AirQualityWidget = ({ city }) => {
   const [airData, setAirData] = useState(null);
   useEffect(() => {

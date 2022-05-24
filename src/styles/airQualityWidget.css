@@ -1,0 +1,24 @@
+.air-quality-container {
+  margin: 10px 0;
+}
+
+.air-quality-city {
+    font-family: 'Shrikhand', cursive;
+    font-size: 1.5em;
+    color: white;
+    background: rgba(0,0,0,0.3);
+    text-align: center;
+  }
+
+.air-quality-info-container {
+    display: flex;
+    justify-content: space-around;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1em;
+    color: white;
+    background: rgba(0,0,0,0.2);
+    text-align: center;
+    padding: 5px;
+  
+}
