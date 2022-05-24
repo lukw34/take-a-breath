@@ -15,8 +15,8 @@ const AirQualityWidget = ({ city }) => {
     <div className="air-quality-container">
       <div className="air-quality-city" >{city}</div>
       <div className="air-quality-info-container">
-        <div>{airData.aqi}</div>
-        <div>{airData.quality}</div>
+        <div className="air-quality-aqi">{airData.aqi}</div>
+        <div className="air-quality-label">{airData.quality}</div>
       </div>
     </div>
   );
